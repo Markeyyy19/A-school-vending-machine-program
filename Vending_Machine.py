@@ -81,7 +81,7 @@ print("Welcome to the School Vending Machine!")
 while True:
     show_menu()
     
-    code = input("\nEnter code (or Q to quit): ")
+    code = input("\nEnter code (or E to quit): ")
     code = code.upper()
     
     if code == "Q":
@@ -93,7 +93,7 @@ while True:
         continue
     
     if products[code]["stock"] <= 0:
-        print("Sorry! Out of stock!")
+        print(" Out of stock!")
         continue
     
     name = products[code]["name"]
@@ -105,7 +105,7 @@ while True:
     money = float(input("Insert money (SAR): "))
     
     if money < price:
-        print("Not enough money! Returning " + str(money) + " SAR")
+        print("Insufficient Balance! Returning " + str(money) + " SAR")
         continue
     
     change = money - price
