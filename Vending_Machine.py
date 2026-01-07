@@ -47,7 +47,7 @@ def show_menu():
         status = "Available" if stock > 0 else "OUT OF STOCK"
         print(code + ": " + name + " - " + str(price) + " SAR (" + status + ")")
     
-    # Drinks Category
+    # Cold Drinks Category
     print("\n    COLD DRINKS    ")
     for code in ["B1", "B2", "B3"]:
         name = products[code]["name"]
@@ -56,7 +56,7 @@ def show_menu():
         status = "Available" if stock > 0 else "OUT OF STOCK"
         print(code + ": " + name + " - " + str(price) + " SAR (" + status + ")")
     
-    # Candy Category
+    # Sweets Category
     print("\n    CANDY    ")
     for code in ["C1", "C2", "C3"]:
         name = products[code]["name"]
