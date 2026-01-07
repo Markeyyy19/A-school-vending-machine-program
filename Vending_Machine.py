@@ -23,7 +23,7 @@ products = {
     "D2": {"name": "Croissant", "price": 2.55, "stock": 20},
     "D3": {"name": "Oreo", "price": 1.55, "stock": 15}
 }
-# This will suggest another item to be paired with the item that is bought
+# This will suggest another item to be paired with the item that is purchased
 suggestions = {
     "Coffee": "Croissant",
     "Tea": "Biscuits",
