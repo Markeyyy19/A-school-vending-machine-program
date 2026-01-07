@@ -119,7 +119,7 @@ while True:
     if name in suggestions:
         suggestion = suggestions[name]
         print(f"\nWould you like to add {suggestion}? It pairs well with {name}!")
-    # This will prompt the user if the user would like to buy more
+    # This will prompt the user if the user would like make a new purchase
     again = input("\nBuy more? (yes/no): ")
     if again != "yes":
         print("Thank you for your purchase! Goodbye!")
