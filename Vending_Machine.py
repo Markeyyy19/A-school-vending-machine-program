@@ -105,7 +105,7 @@ while True:
     money = float(input("Insert money (SAR): "))
     
     if money < price:
-        print("Insufficient Balance! Returning " + str(money) + " SAR")
+        print("Insufficient Balance! " + str(money) + " SAR")
         continue
     
     change = money - price
